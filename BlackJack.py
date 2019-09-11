@@ -1,4 +1,4 @@
-# Black Jack Game
+# Black Jack Game - Under Construction
 # Version 11/sep/19
 
 from random import randint
@@ -39,7 +39,7 @@ class BlackJack:
 
         return card, sum
 
-    def print_hand(self, player, hand, sum):
+    def print_hand(self, hand, sum, player='Dealer'):
         print(f'{player}:\n---------')
         print(f'*Hand: {sum}\n*{hand}\n')
 
